@@ -965,6 +965,64 @@ span {
     url("images/elecvault.jpeg");
 }
 
+.featured__containert {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured__cardt {
+  margin: 1rem;
+  height: 200px;
+  width: 300px;
+  border-radius: 4px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("images/pexels-sora-shimazaki-5935791.jpeg");
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+.featured__cardt:nth-child(1) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("images/hackingai.jpeg");
+}
+
+.featured__cardt:nth-child(2) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("images/bankhacking.jpeg");
+}
+
+.featured__cardt:nth-child(3) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("images/harddrivehack.jpeg");
+}
+
+.featured__cardt:nth-child(4) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("images/JBL-Pulse-3-3.jpeg");
+}
+
 .featured h3 {
   position: absolute;
   font-size: 0.8rem;
@@ -1000,6 +1058,39 @@ span {
 }
 
 .featured__card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.featured__cardt h5 {
+  position: absolute;
+  font-size: 0.6rem;
+  top: 180px;
+  left: 15px;
+}
+
+.featured__cardt p {
+  position: absolute;
+  font-size: 0.8rem;
+  top: 130px;
+  left: 205px;
+}
+
+.featured__cardt button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #c86bf7;
+  position: absolute;
+  top: 152px;
+  left: 180px;
+  font-size: 1rem;
+}
+
+.featured__cardt:hover {
   transform: scale(1.05);
   transition: 0.3s ease-in;
   cursor: pointer;
